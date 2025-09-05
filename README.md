@@ -54,11 +54,13 @@ Data ini merepresentasikan penjualan toko pada periode musim Natal (November–D
 - Ukuran Data: 10.000 baris, 24 kolom  
 - Karakteristik Data: berisi transaksi penjualan periode Natal, mencakup informasi produk, pelanggan, pengiriman, dan metode pembayaran.  
 - Struktur Kolom:
-  - Data Transaksi Penjualan (`TransactionID`, `Date`, `Quantity`, `TotalPrice`, `UnitPrice`, `Discount`, `Profit`, `ReturnFlag`)
-  - Informasi Produk dan Kategorisasi (`ProductID`, `ProductName`, `Category`, `SubCategory`, `Brand`)
-  - Informasi Pelanggan (`CustomerID`, `Gender`, `Age`, `AgeSegment`, `Location`)
-  - Pengiriman dan Logistik (`Channel`, `ShippingMethod`, `DeliveryTime`, `Region`)  
-  - Metode Pembayaran dan Layanan Tambahan ( `PaymentMethod`, `GiftWrap`)
+  - Data Transaksi Penjualan (`TransactionID`, `Date`, `Time`, `Quantity`, `UnitPrice`, `TotalPrice`, `PromotionApplied`, `DiscountAmount`, `ReturnFlag`)
+  - Informasi Produk & Kategorisasi (`ProductID`, `ProductName`, `Category`)
+  - Informasi Pelanggan (`CustomerID`, `Age`, `Gender`, `Location`)
+  - Informasi Toko & Kanal Penjualan (`StoreID`, `OnlineOrderFlag`)
+  - Metode Pembayaran & Kepuasan (`PaymentType`, `CustomerSatisfaction`)
+  - Pengiriman & Layanan Tambahan (`ShippingMethod`, `DeliveryTime`, `GiftWrap`)
+  - Faktor Eksternal & Event (`Weather`, `Event`)
 
 ---
 
