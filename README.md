@@ -1,6 +1,6 @@
 # 🎄📊 Christmas Sales Insights  
 
-Repositori ini berisi analisis data penjualan periode Natal yang bersumber dari dataset publik di **Kaggle**. Analisis dilakukan untuk mengeksplorasi tren penjualan, perilaku konsumen, serta kinerja operasional dalam konteks simulasi bisnis. Meskipun bukan data riil perusahaan, proyek ini dirancang untuk memberikan gambaran komprehensif terkait pemanfaatan data dalam pengambilan keputusan strategis.  
+Repositori ini berisi analisis data penjualan periode Natal yang bersumber dari dataset publik di Kaggle. Analisis dilakukan untuk mengeksplorasi tren penjualan, perilaku konsumen, serta kinerja operasional dalam konteks simulasi bisnis. Meskipun bukan data riil perusahaan, proyek ini dirancang untuk memberikan gambaran komprehensif terkait pemanfaatan data dalam pengambilan keputusan strategis.  
 
 ---
 
@@ -68,7 +68,5 @@ Data ini merepresentasikan penjualan toko pada periode musim Natal (November–D
 - Bahasa Pemrograman: `Python`  
 - Analisis Data: `Pandas`, `NumPy`  
 - Visualisasi: `Matplotlib`, `Seaborn`  
-- Lingkungan: `Jupyter Notebook`  
-
----
+- Environment: `Jupyter Notebook`    
  
